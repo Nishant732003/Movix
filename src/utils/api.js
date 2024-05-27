@@ -1,6 +1,6 @@
-import axios from "axios";
+import axios from "axios"; 
 
-const BaseURL = "https://api.themoviedb.org/3";
+const BaseURL = import.meta.env.VITE_APP_BASE_URL;
 const TMDB_TOKEN = import.meta.env.VITE_APP_TMDB_TOKEN;
 
 const headers = {
